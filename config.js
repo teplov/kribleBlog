@@ -48,9 +48,9 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://0.0.0.0',
+        url: 'http://polar-everglades-2700.herokuapp.com',
         mail: {},
-        fileStorage: false,
+       // fileStorage: false,
         database: {
             client: 'postgres',
             connection: {
