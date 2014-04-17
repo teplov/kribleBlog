@@ -9,7 +9,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'localhost',
+          url: 'http://my-ghost-blog.com',
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
@@ -48,7 +48,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://polar-everglades-2700.herokuapp.com',
+          url: 'http://my-ghost-blog.com',
         mail: {},
         fileStorage: false,
         database: {
