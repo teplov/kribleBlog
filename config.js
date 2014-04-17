@@ -60,7 +60,7 @@ config = {
                 database: 'db233od9ib5nbk',
                 port: '5432'
             },
-            debug: false
+            debug: true
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
