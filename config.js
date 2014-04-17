@@ -9,7 +9,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: process.env.MY_URL,
+        url: 'http://polar-everglades-2700.herokuapp.com',
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
@@ -48,7 +48,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 0.0.0.0:process.env.PORT,
+        url: 'http://polar-everglades-2700.herokuapp.com',
         mail: {},
         fileStorage: false,
         database: {
