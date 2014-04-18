@@ -8,7 +8,7 @@ var path = require('path'),
 config = {
     // ### Development **(default)**
     development: {
-       url: 'http://polar-everglades-2700.herokuapp.com',
+       url: 'http://blog-krible.herokuapp.com',
         //url: 'http://polar-everglades-2700.herokuapp.com',
         mail: {},
        // fileStorage: false,
