@@ -8,7 +8,7 @@ var path = require('path'),
 config = {
     // ### Development **(default)**
     development: {
-       url: 'http://doc.krible.com',
+       url: 'http://localhost',
         //url: 'http://polar-everglades-2700.herokuapp.com',
         mail: {},
        // fileStorage: false,
@@ -26,9 +26,9 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '0.0.0.0',
+            host: '127.0.0.1',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: process.env.PORT
+            port: '2368'
         }
     },
 
@@ -37,7 +37,7 @@ config = {
     // Configure your URL and mail settings here
     production: {
         //url: 'http://localhost',
-        //url: 'http://polar-everglades-2700.herokuapp.com',
+        url: 'http://doc.krible.com',
         mail: {},
        // fileStorage: false,
         database: {
