@@ -13,7 +13,7 @@ config = {
         mail: {},
        // fileStorage: false,
         database: {
-            client: 'postgres',
+            client: 'pg',
             connection: {
                 host: 'ec2-54-225-101-124.compute-1.amazonaws.com',
                 user: 'tglaqgnnaeupsq',
